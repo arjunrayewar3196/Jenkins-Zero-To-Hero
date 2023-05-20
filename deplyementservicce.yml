@@ -31,6 +31,6 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: arjunrayewar/kubernetes-configmap-reload
+        image: arjunrayewar/docker
         ports:
         - containerPort: 8080
