@@ -12,7 +12,7 @@ public class StartApplication {
 
     @GetMapping("/")
     public String index(final Model model) {
-        model.addAttribute("title", "Myself abdul, build and deploy successfuly a sprint boot application using Maven");
+        model.addAttribute("title", "Myself abdul 203040, build and deploy successfuly a sprint boot application using Maven");
         model.addAttribute("msg", "This is our github public repo app");
         return "index";
     }
